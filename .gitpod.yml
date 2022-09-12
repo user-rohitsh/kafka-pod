@@ -3,4 +3,5 @@ image:
 tasks:
   - command: ./start.sh  
 ports:
- - port: 8000
+ - port: 9092
+   visibility: public
